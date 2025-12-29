@@ -12,14 +12,14 @@ Esta secuencia permite generar muros de Revit de forma automática basándose en
 ***Lógica:** Filtra por capas (`CAD.CurvesFromCADLayers`) y genera los muros utilizando curvas y niveles específicos.
 ***Resultado:** Muros paramétricos (ej. Hormigón 30 cm) creados instantáneamente entre el Nivel 1 y el Nivel 2.
 
-###2. Habitaciones: Crear y Etiquetar desde Excel
+### 2. Habitaciones: Crear y Etiquetar desde Excel
 Automatiza la creación de espacios en el modelo BIM utilizando bases de datos externas.
 ***Etiquetar habitaciones (desde Excel):** Lee los nombres y números desde una planilla para evitar errores de transcripción manual.
 
-###3. Crear pisos a partir de habitaciones
+### 3. Crear pisos a partir de habitaciones
 Genera la geometría de suelos detectando automáticamente los límites de las habitaciones colocadas en el proyecto.
 
-###4. Crear zócalos
+### 4. Crear zócalos
 Automatización del modelado de terminaciones interiores mediante tres pasos clave:
 1. **Seleccionar todas las habitaciones:** Identifica los perímetros de trabajo.
 2. **Definir Tipo de Zócalo:** Selección de la familia de acabado.
