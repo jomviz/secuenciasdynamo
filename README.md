@@ -8,9 +8,10 @@ Colección de secuencias profesionales de **Dynamo para Revit** diseñadas para 
 
 ### 1. Crear muros desde un CAD 
 Esta secuencia permite generar muros de Revit de forma automática basándose en las capas de un archivo CAD vinculado.
-***Input:** Selección del elemento CAD mediante `Select Model Element`.
-***Lógica:** Filtra por capas (`CAD.CurvesFromCADLayers`) y genera los muros utilizando curvas y niveles específicos.
-***Resultado:** Muros paramétricos (ej. Hormigón 30 cm) creados instantáneamente entre el Nivel 1 y el Nivel 2.
+
+* **Input:** Selección del elemento CAD mediante `Select Model Element`.
+* **Lógica:** Filtra por capas (`CAD.CurvesFromCADLayers`) y genera los muros utilizando curvas y niveles específicos.
+* **Resultado:** Muros paramétricos (ej. Hormigón 30 cm) creados instantáneamente entre el Nivel 1 y el Nivel 2.
 
 ### 2. Habitaciones: Crear y Etiquetar desde Excel
 Automatiza la creación de espacios en el modelo BIM utilizando bases de datos externas.
