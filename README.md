@@ -6,31 +6,31 @@ Colección de secuencias profesionales de **Dynamo para Revit** diseñadas para 
 
 ## 🛠️ Secuencias Incluidas
 
-### [cite_start]1. Crear muros desde un CAD [cite: 2]
-[cite_start]Esta secuencia permite generar muros de Revit de forma automática basándose en las capas de un archivo CAD vinculado[cite: 2, 3].
-* [cite_start]**Input:** Selección del elemento CAD mediante `Select Model Element`[cite: 4].
-* [cite_start]**Lógica:** Filtra por capas (`CAD.CurvesFromCADLayers`) y genera los muros utilizando curvas y niveles específicos[cite: 3, 16].
-* [cite_start]**Resultado:** Muros paramétricos (ej. Hormigón 30 cm) creados instantáneamente entre el Nivel 1 y el Nivel 2[cite: 26, 13, 21].
+### 1. Crear muros desde un CAD 
+Esta secuencia permite generar muros de Revit de forma automática basándose en las capas de un archivo CAD vinculado.
+***Input:** Selección del elemento CAD mediante `Select Model Element`.
+***Lógica:** Filtra por capas (`CAD.CurvesFromCADLayers`) y genera los muros utilizando curvas y niveles específicos.
+***Resultado:** Muros paramétricos (ej. Hormigón 30 cm) creados instantáneamente entre el Nivel 1 y el Nivel 2.
 
-### [cite_start]2. Habitaciones: Crear y Etiquetar desde Excel [cite: 27]
-[cite_start]Automatiza la creación de espacios en el modelo BIM utilizando bases de datos externas[cite: 27].
-* [cite_start]**Etiquetar habitaciones (desde Excel):** Lee los nombres y números desde una planilla para evitar errores de transcripción manual[cite: 28].
+###2. Habitaciones: Crear y Etiquetar desde Excel
+Automatiza la creación de espacios en el modelo BIM utilizando bases de datos externas.
+***Etiquetar habitaciones (desde Excel):** Lee los nombres y números desde una planilla para evitar errores de transcripción manual.
 
-### [cite_start]3. Crear pisos a partir de habitaciones [cite: 29]
-[cite_start]Genera la geometría de suelos detectando automáticamente los límites de las habitaciones colocadas en el proyecto[cite: 30].
+###3. Crear pisos a partir de habitaciones
+Genera la geometría de suelos detectando automáticamente los límites de las habitaciones colocadas en el proyecto.
 
-### [cite_start]4. Crear zócalos [cite: 31]
-[cite_start]Automatización del modelado de terminaciones interiores mediante tres pasos clave[cite: 31]:
-1. [cite_start]**Seleccionar todas las habitaciones:** Identifica los perímetros de trabajo[cite: 34].
-2. [cite_start]**Definir Tipo de Zócalo:** Selección de la familia de acabado[cite: 32].
-3. [cite_start]**Definir Altura de Zócalo:** Ajuste paramétrico de la dimensión vertical[cite: 33].
+###4. Crear zócalos
+Automatización del modelado de terminaciones interiores mediante tres pasos clave:
+1. **Seleccionar todas las habitaciones:** Identifica los perímetros de trabajo.
+2. **Definir Tipo de Zócalo:** Selección de la familia de acabado.
+3. **Definir Altura de Zócalo:** Ajuste paramétrico de la dimensión vertical.
 
 ---
 
 ## 📦 Requisitos
 Para que estas secuencias funcionen correctamente, asegúrate de tener instalados los siguientes nodos/paquetes:
-* [cite_start]**Paquete Modelical:** Utilizado para la gestión avanzada de datos y geometría[cite: 35].
-* **Revit:** Versión compatible con Dynamo 2.x o superior.
+***Paquete Modelical:** Utilizado para la gestión avanzada de datos y geometría.
+***Revit:** Versión compatible con Dynamo 2.x o superior.
 
 ---
 
@@ -44,4 +44,4 @@ Para que estas secuencias funcionen correctamente, asegúrate de tener instalado
 
 ## 🛒 Adquiere el Pack Completo
 ¿Buscas soporte técnico y guías de uso detalladas? 
-👉 **[Visita mi tienda en Gumroad para descargar el pack profesional]**
+👉 **Visita mi tienda en Gumroad para descargar el pack profesional https://jomviz.gumroad.com/**
